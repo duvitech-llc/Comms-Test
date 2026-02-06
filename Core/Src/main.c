@@ -131,6 +131,7 @@ int main(void)
   init_dma_logging();
   printf("\033c");
   printf("Communication Protocol Demo\r\n");
+  printf("Version: %s\r\n", FW_VERSION_STRING);
   printf("CPU Clock Frequency: %lu MHz\r\n\r\n", HAL_RCC_GetSysClockFreq() / 1000000);
 
   /* USER CODE END 2 */
