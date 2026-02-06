@@ -28,7 +28,7 @@ jobs:
       - name: Upload firmware artifact
         uses: actions/upload-artifact@v4
         with:
-          name: motion-sensor-fw
+          name: comms-test-fw
           path: |
             build/Debug/*.hex
             build/Debug/*.bin
